@@ -1,8 +1,7 @@
 ---
 layout: page
 name: Armando
-email: armando.andini@hotmail.com
-profile: '/assets/profile.png'
+email: armando.andini@gmail.com
 ---
 
-blablah
+Ruby Full Stack web developer. Passionate about programming, science, nature and traveling. I started self-teaching myself C and C++ at 13 years old, and have tried about 15 programming languages since then.
