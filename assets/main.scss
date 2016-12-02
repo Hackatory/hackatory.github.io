@@ -71,10 +71,15 @@ $on-laptop:        800px;
     }
 
     .profile {
+      display: flex;
+      align-items: center;
       border: 5px solid white;
       border-radius: 100%;
       width: 150px;
+      height: 150px;
+      overflow: hidden;
       background-color: grey;
+      margin: 0px auto;
     }
   }
 }
