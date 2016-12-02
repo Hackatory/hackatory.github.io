@@ -18,7 +18,7 @@ No cuesta nada, el que quiere poner plata o tiempo para lo que se necesite esta 
 
 ## WiFi
 
-Hay wifi en la oficina, la red se llama hackerlab y la password es aprenderaprogramar.
+Hay wifi en la oficina, la red se llama `hackerlab` y la password es `aprenderaprogramar`.
 
 ## Cómo nos organizamos
 
