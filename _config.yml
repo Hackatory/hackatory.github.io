@@ -20,7 +20,6 @@ description: >
   learn, work or cooperate with others or tecnological subject.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hackatory
 github_username: hackatory
 
 # Build settings
