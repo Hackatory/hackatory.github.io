@@ -1,0 +1,27 @@
+<section class="hacker">
+  <div class='profile'>
+    <img src="{{ hacker.profile }}" />
+  </div>
+  <h1>{{ hacker.name }}</h1>
+  <ul>
+    {% if hacker.github %}
+      <li>
+        <a href="http://github.com/{{hacker.github}}"
+           target="_blank">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if hacker.linkedin %}
+      <li>
+        <a href="http://linkedin.com/in/{{hacker.linkedin}}"
+           target="_blank">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+  <p>
+  {{ hacker.excerpt }}
+  </p>
+</section>

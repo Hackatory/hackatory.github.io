@@ -12,9 +12,9 @@ Av. Gdor. Freire 3043 departamento 4, es al lado de Santa Lucía (mapa). El timb
 <br/>
 <small><a href="http://www.openstreetmap.org/?mlat=-31.63818&amp;mlon=-60.71650#map=19/-31.63818/-60.71650">Ver mapa en pantalla completa</a></small>
 
-## Cuanto cuesta
+## Cuanto cobramos
 
-No cuesta nada, el que quiere poner plata o tiempo para lo que se necesite esta invitado a hacerlo.
+No cobramos nada. El que quiere poner plata o tiempo para lo que se necesite, está invitado a hacerlo.
 
 ## WiFi
 
@@ -30,15 +30,9 @@ Para gestionar los gastos, lo que hacemos es cargar los gastos en un google form
 
 <div class="hackers">
   {% for hacker in site.hackers %}
-    <section class="hacker">
-      <div class='profile'>
-        <img src="{{ hacker.profile }}" />
-      </div>
-      <h1>{{ hacker.name }}</h1>
-      <p>
-        {{ hacker.excerpt }}
-      </p>
-    </section>
+    {% if hacker.show %}
+      {% include hacker_profile.html %}
+    {% endif %}
   {% endfor %}
 </div>
 

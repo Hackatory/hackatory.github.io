@@ -1,8 +1,8 @@
 ---
 layout: page
-name: 'Augstin'
+name: 'Agustín'
 email: ''
 profile: '/assets/profile.png'
 ---
 
-blablah
+Diseñador

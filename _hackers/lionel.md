@@ -2,6 +2,7 @@
 layout: page
 name: 'Lionel'
 email: 'hsulionel@gmail.com'
+show: true
 profile: '/assets/images/hsulionel_profile.jpg'
 ---
 
