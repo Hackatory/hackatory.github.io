@@ -2,7 +2,7 @@
 layout: hackers
 name: Federico
 email: federico.neuman@gmail.com
-profile: /assets/images/fede_profile.png
+profile: /assets/images/fede_profile.jpg
 show: true
 excerpt: >
   Web developer, reader, dog rescuer.
