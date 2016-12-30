@@ -39,3 +39,9 @@ what_we_do: >
   knowledge to improve and grow.
   we don't charge anything to people that want to work in this space with us
   but we expect they wish the same.
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
