@@ -2,7 +2,8 @@
 layout: page
 name: 'Federico'
 email: 'federico.neuman@gmail.com'
-profile: '/assets/profile.png'
+profile: /assets/images/federico_profile.jpg
+show: true
 ---
 
-blablah
+Web developer, reader, dog rescuer.

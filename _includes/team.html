@@ -1,0 +1,29 @@
+<section class="no-padding" id="team">
+  <div class="container-fluid">
+    <div class="row no-gutter popup-gallery">
+
+      {% for hacker in site.hackers %}
+        {% if hacker.show %}
+
+          <div class="col-lg-4 col-sm-6">
+            <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+              <img src="{{hacker.profile}}" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    {{ hacker.title }}
+                  </div>
+                  <div class="project-name">
+                    {{ hacker.excerpt }}
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
