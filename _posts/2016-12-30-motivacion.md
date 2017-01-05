@@ -1,6 +1,7 @@
 ---
 title: Motivación
 tags: es nosotros
+comments: true
 ---
 
 El 13 de septiembre, hace ya más de tres meses, vinimos a la oficina a empezar a
