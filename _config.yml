@@ -18,7 +18,7 @@ email: 'poramo@gmail.com'
 phone: '+549 342 5360941'
 description: >
   Hackatory is a space where every one can find some a place to
-  learn, work or cooperate with others or tecnological subject.
+  learn, work or cooperate with others on tecnological subject.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: hackatory
@@ -37,7 +37,7 @@ collections:
 what_we_do: >
   We are a self managed group that work together and believe in sharing
   knowledge to improve and grow.
-  we don't charge anything to people that want to work in this space with us
+  We don't charge anything to people that want to work in this space with us
   but we expect they wish the same.
 defaults:
   -
