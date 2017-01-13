@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Is not a Sacrament, is just a stand-up"
-date:   2016-12-30 11:28:00 -0300
-categories: software, stand-up, scrum, en
+date:   2017-01-13 09:28:00 -0300
+tags: software stand-up scrum en
+categories: en
+comments: true
 ---
 
 Each day, at 12.00 am, the Minister is ready to start the Sacrament. It doesn’t really matter what you did or not the last day or even the quality of the code, the only most important thing is that you are there on the stand-up and talk about something.
