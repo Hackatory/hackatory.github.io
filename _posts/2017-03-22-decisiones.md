@@ -3,35 +3,37 @@ title: Decisiones
 author: Eloy Espinaco
 ---
 
-Ya hace 6 meses que estamos acá, la oficina tiene casi vida propia, hay
-proyectos ocurriendo que uno no se entera, aparecen cosas y desaparecen cosas,
-en parte este se convirtió en un mundo detrás del espejo en el que cualquier
-cosa puede pasar.
+Me di cuenta de que ya hace 6 meses que estamos acá, y siento me siento como en
+el [proyecto Mayhem][1], hay más reuniones de las que uno puede asistir,
+aparecen cosas que uno no sabe qué son y, lo más interesante, los proyectos que
+van apareciendo. No los trabajos propios de cada uno, la oficina se convirtió
+en un lugar donde llevar proyectos para trabajar entre todos, proyectos
+imposibles de tomar solos.
 
-Entre esas cosas, las más interesantes son los proyectos, no los proyectos de
-cada uno sino que la oficina se convirtió en un lugar donde tirar proyectos
-para trabajar entre todos, proyectos que solos es imposible tomar.
+Junto con eso viene la cuestión de las _decisiones_, de tomar un proyecto o
+dejarlo, cobrarlo, implementarlo, organizarse, distribuir el trabajo y, no
+menos importante, repartir la plata.
 
-Junto con eso viene la cuestión de las decisiones, de tomar un proyecto o
-dejarlo, cobrarlo, implementarlo, organizarse, distribuir el trabajo y
-obviamente, repartir la plata.
-
-<blockquote class="highlight">no queremos que nadie tome las decisiones por
+<blockquote class="highlight">No queremos que nadie tome las decisiones por
 nosotros</blockquote>
 
-Todas estas decisiones son tanto la principal dificultad, como el sentido de
-este proyecto ya que, al fin y al cabo, estamos acá porque no queremos que
-nadie tome las decisiones por nosotros.
+La cuestión es que estas decisiones son tanto la principal dificultad, como el
+sentido de este proyecto. Venimos a esta oficina porque no queremos una oficina
+en que está todo resuelto y tampoco queremos trabajar desde casa _solos_,
+buscamos el espacio compartido, y compartir con otros implica decidir y no
+queremos que nadie tome las decisiones por nosotros.
 
-La cuestión es que estamos acostumbrados a delegar, estamos acostumbrados a
-trabajar para otro y que ese otro tome las decisiones, por lo tanto, tomar esas
-decisiones nos incomoda. Entonces buscamos delegar estas cuestiones a los
-agentes externos, o sea a los clientes, dejando que ellos sean los jefes,
-determinen las tecnologías, las tareas y la plata.
+El problema es que estamos muy acostumbrados a delegar, y a trabajar para otro
+y que ese otro tome las decisiones, que tomar esas decisiones nos incomoda.
+Entonces nos pasa que elegimos opciones en que las definiciones vengan de
+afuera, o sea de los clientes, dejando que ellos sean los jefes, que determinen
+las tecnologías, las tareas y la plata.
 
-Sin embargo, estamos de acuerdo en una primera determinación sobre la división
-de la plata, que tiene que ver con nuestra idea de como trabajar, el Hackatory
-no paga la hora de _proyect manager_, no se paga por la toma de decisiones, no
-porque pensemos que tomar decisiones no es un trabajo, sino porque pensamos que
-ésta no debe nunca delegarse a otros. De esta forma intentamos disuadir a
-aquellos que "amablemente" quieran tomar decisiones por nosotros.
+Sin embargo, con el tiempo vamos logrando algunas determinaciones, por ejemplo,
+que el Hackatory no paga la hora de _proyect manager_ (o gerente), no se paga
+por la toma de decisiones, no porque pensemos que tomar decisiones no es un
+trabajo, sino porque pensamos que ésta no debe nunca delegarse a otros y es
+siempre parte de otros trabajos. De esta forma intentamos disuadir a aquellos
+que "amablemente" quieran tomar decisiones por nosotros.
+
+ [1]: https://es.wikipedia.org/wiki/Fight_Club "El Club de la pelea"
