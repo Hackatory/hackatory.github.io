@@ -31,7 +31,7 @@ afuera, o sea de los clientes, dejando que ellos sean los jefes, que determinen
 las tecnologías, las tareas y la plata.
 
 Sin embargo, con el tiempo vamos logrando algunas determinaciones, por ejemplo,
-que el Hackatory no paga la hora de _proyect manager_ (o gerente), no se paga
+que el Hackatory no paga la hora de _project manager_ (o gerente), no se paga
 por la toma de decisiones, no porque pensemos que tomar decisiones no es un
 trabajo, sino porque pensamos que ésta no debe nunca delegarse a otros y es
 siempre parte de otros trabajos. De esta forma intentamos disuadir a aquellos
