@@ -6,9 +6,10 @@ author: Eloy Espinaco
 Me di cuenta de que ya hace 6 meses que estamos acá, y siento me siento como en
 el [proyecto Mayhem][1], hay más reuniones de las que uno puede asistir,
 aparecen cosas que uno no sabe qué son y, lo más interesante, los proyectos que
-van apareciendo. No los trabajos propios de cada uno, la oficina se convirtió
-en un lugar donde llevar proyectos para trabajar entre todos, proyectos
-imposibles de tomar solos.
+alguien trae para trabajar entre todos. O sea, además de los trabajos en los
+que está cada uno, con su cliente y su empleador, la oficina se convirtió en un
+lugar donde traer proyectos para trabajar entre todos, proyectos imposibles de
+tomar solos.
 
 Junto con eso viene la cuestión de las _decisiones_, de tomar un proyecto o
 dejarlo, cobrarlo, implementarlo, organizarse, distribuir el trabajo y, no
