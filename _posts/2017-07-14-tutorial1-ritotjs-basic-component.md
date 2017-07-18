@@ -16,8 +16,8 @@ Los componentes **pueden incluír** tres secciones:
 3. ***Javascript*** (comportamiento deseado).
 
 
-```
-<!-- hello-world.tag -->
+```html
+<!-- hello-world.tag --> 
 <hello-world>
   <style>
     h1 { color: red; }
@@ -26,13 +26,37 @@ Los componentes **pueden incluír** tres secciones:
   <h1>hola {name}!</h1>
 
   <script>
-    this.name = opts.name 
+    name = opts.name 
   </script>
 </hello-world>
 ```
-En el script de arriba ```opts.name``` contiene el valor del ```name``` proveniente del archivo HTML. Ese valor es el que será mostrado en el encabezado h1.  
-
+En el script de arriba ```opts.name``` contiene el valor del ```name``` proveniente del archivo HTML. Ese valor es el que será mostrado en el encabezado h1. Además a la izquierda de la asignación no es necesario colocar ```this.name``` ya que this siempre apunta a la intancia de etiqueta (o componente) actual (ES6).
 ## **Archivo HTML**  
+En el head del html cargamos el archivo (.tag) del componente:
+```html 
+<head>
+  <script type=riot/tag src="hello-world.tag"></script>
+</head>
+```
+<br>Luego agregamos la libreía de riot:
+```html
+<head>
+  <script type=riot/tag src="hello-world.tag"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
+</head>
+```
+<br>Por último montamos el componente:
+```html
+<head>
+  <script type=riot/tag src="hello-world.tag"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
+  <script>
+     // El saludo por defecto será "hola mundo!"
+     riot.mount('hello-world', {name: 'mundo'})
+  </script>
+</head>
+```
+<br>El archivo html terminado debería verse similar al de abajo:
 ```
 <!-- index.html -->
 <!DOCTYPE html>
