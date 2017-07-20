@@ -34,6 +34,8 @@ exclude:
   - cache
 collections:
   hackers:
+  tutoriales:
+    output: true
 what_we_do: >
   We are a self managed group that work together and believe in sharing
   knowledge to improve and grow.
