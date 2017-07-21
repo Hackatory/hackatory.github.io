@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "It's not a Sacrament, it's just a stand-up"
+title:  "Is not a Sacrament, is just a stand-up"
 date:   2017-01-13 09:28:00 -0300
 tags: software stand-up scrum en
 categories: en
 comments: true
 ---
 
-Each day at 12 am the Minister is ready to perform the Sacrament. It doesn't really matter what you did or didn't do the previous day or even the quality of your code: the most important thing is that you attend the stand-up and talk about something.
+Each day, at 12.00 am, the Minister is ready to start the Sacrament. It doesn’t really matter what you did or not the last day or even the quality of the code, the only most important thing is that you are there on the stand-up and talk about something.
 
-Bosses, PMs, whatever, have to re-organize their priorities (there are at least 36 different things in a project more important than this meeting).
+Bosses, PMs, whatever, have to re-organize his priority, there are at least 36 different most important things in a project than this meeting. 
 
-> “Please let us know with at least 34.3 hours's notice if you can't attend a
+> “Please inform with at least 34.3 hours before if you can’t assist a
 > stand-up”
 
-It's not a Sin and the reason doesn't matter. 
+Is not a Sin and doesn’t matter the reason. 
 
-Being flexible about meetings helps generate a good atmosphere in the project, which in turn helps you keep motivated -and this, believe me, is something that the client is interested in.
+Being flexible about meetings helps to generate a good atmosphere in the project, which in consequence help you to keep motivated and this, believe me, is something that the client is interested in.
