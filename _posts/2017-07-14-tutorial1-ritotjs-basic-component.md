@@ -3,7 +3,7 @@ layout: post
 title:  "Riot Tutorial 1 - Componente Básico"
 date:   2017-07-14 10:00:00 -0300
 tags: tutorial
-categories: en
+categories: es
 comments: true
 ---
 
@@ -29,7 +29,7 @@ Los componentes **pueden incluír** tres secciones:
   <h1>hola {name}!</h1>
 
   <script>
-    name = opts.name
+    this.name = opts.name
   </script>
 </hello-world>
 ```
@@ -37,11 +37,9 @@ Los componentes **pueden incluír** tres secciones:
 ```opts``` es un objeto que guarda todos los atributos definidos en la etiqueta
 de html. En el script de arriba ```opts.name``` contiene el valor del ```name```
 proveniente del archivo HTML. Ese valor es el que será mostrado en el
-encabezado h1. Además a la izquierda de la asignación no es necesario colocar
-```this.name``` ya que this siempre apunta a la intancia de etiqueta (o
-componente) actual (ES6).
+encabezado h1. 
 
-## **Archivo HTML**
+## Archivo HTML
 
 En el head del html cargamos el archivo (.tag) del componente:
 ```html
@@ -67,6 +65,11 @@ En el head del html cargamos el archivo (.tag) del componente:
   </script>
 </head>
 ```
+El script del componente **hello-world** también se podría haber escrito como:
+
+```this.name = opts.name || "mundo"```
+
+Lo cuál haría más fácil el montaje del componente, sin embargo el mensaje por defecto quedaría "adherido" al componente. En este caso preferimos que el componente reciba el atributo por defecto así podemos cambiarlo cuando queramos al momento de montarlo.
 
 El archivo html terminado debería verse similar al de abajo:
 
@@ -76,20 +79,22 @@ El archivo html terminado debería verse similar al de abajo:
 <html>
 <head>
   <title>Riotjs - Tutorial 1</title>
+</head>
+
+<body>
+  <!-- Saludos personalizados -->
+  <hello-world name="Lucas"></hello-world>
+  <hello-world name="Pablo"></hello-world>
+  <!-- Saludo por defecto -->
+  <hello-world></hello-world>
+
+  <!-- El script va al final del documento -->
   <script type=riot/tag src="hello-world.tag"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
   <script>
     // El saludo por defecto será "hola mundo!"
     riot.mount('hello-world', {name: 'mundo'})
   </script>
-</head>
-
-<body>
-  <!-- Saludos personalizados -->
-  <hello-world name="Lucas"/>
-  <hello-world name="Pablo"/>
-  <!-- Saludo por defecto -->
-  <hello-world/>
 </body>
 </html>
 
@@ -97,6 +102,3 @@ El archivo html terminado debería verse similar al de abajo:
 
 De esta forma, usamos 3 veces la etiqueta. Las dos primeras, se usan definiendo
 un nombre y la tercera usa el valor por defecto.
-Notar que las etiquetas del componente ```<hello-world/>``` que definimos se
-cierran a si mismas. Riot soporta self-closing así que no es necesario colorcar
-```<hello-world></hello-world>```.
