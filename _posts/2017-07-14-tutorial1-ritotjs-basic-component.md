@@ -47,7 +47,7 @@ En el head del html cargamos el archivo (.tag) del componente:
   <script type=riot/tag src="hello-world.tag"></script>
 </head>
 ```
-<br>Luego agregamos la libreía de riot:
+<br>Luego agregamos la biblioteca de riot:
 ```html
 <head>
   <script type=riot/tag src="hello-world.tag"></script>
@@ -65,15 +65,17 @@ En el head del html cargamos el archivo (.tag) del componente:
   </script>
 </head>
 ```
-El script del componente **hello-world** también se podría haber escrito como:
+<br>El script del componente **hello-world** también se puede escribir así:
 
-```this.name = opts.name || "mundo"```
+```js
+this.name = opts.name || "mundo"
+```
 
-Lo cuál haría más fácil el montaje del componente, sin embargo el mensaje por defecto quedaría "adherido" al componente. En este caso preferimos que el componente reciba el atributo por defecto así podemos cambiarlo cuando queramos al momento de montarlo.
+Esto hace más fácil montar el componente, sin embargo el mensaje por defecto quedaría "adherido" al mismo. En cambio si le pasamos el nombre por defecto al momento de montarlo (como se ve arriba) podremos reutilizar el componente con diferentes nombres por defecto si lo deseamos.
 
 El archivo html terminado debería verse similar al de abajo:
 
-```
+```html
 <!-- index.html -->
 <!DOCTYPE html>
 <html>
