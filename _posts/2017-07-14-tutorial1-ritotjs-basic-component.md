@@ -41,7 +41,7 @@ encabezado h1.
 
 ## Archivo HTML
 
-En el head del html cargamos el archivo (.tag) del componente:
+Al final del **body** en el archivo html cargamos el archivo (.tag) del componente:
 ```html
 <head>
   <script type=riot/tag src="hello-world.tag"></script>
@@ -65,13 +65,13 @@ En el head del html cargamos el archivo (.tag) del componente:
   </script>
 </head>
 ```
-<br>El script del componente **hello-world** también se puede escribir así:
+<br>El script del componente **hello-world** (en el archivo .tag) también se puede escribir así:
 
 ```js
 this.name = opts.name || "mundo"
 ```
-
-Esto hace más fácil montar el componente, sin embargo el mensaje por defecto quedaría "adherido" al mismo. En cambio si le pasamos el nombre por defecto al momento de montarlo (como se ve arriba) podremos reutilizar el componente con diferentes nombres por defecto si lo deseamos.
+<br>
+Esto hace más fácil montar el componente y siempre tendremos el mensaje por defecto **_"hola mundo!"_**, si en algún momento deseamos cambiar ese mensaje por defecto sólo basta con pasar el argumento **name** al momento de montar el componente (como se ve arriba). De esta manera el componente siempre funcionará, ya sea que se le pasen argumentos o no.
 
 El archivo html terminado debería verse similar al de abajo:
 
@@ -90,7 +90,7 @@ El archivo html terminado debería verse similar al de abajo:
   <!-- Saludo por defecto -->
   <hello-world></hello-world>
 
-  <!-- El script va al final del documento -->
+  <!-- El script va al final del body -->
   <script type=riot/tag src="hello-world.tag"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
   <script>
