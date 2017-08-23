@@ -43,27 +43,27 @@ encabezado h1.
 
 Al final del **body** en el archivo html cargamos el archivo (.tag) del componente:
 ```html
-<head>
+<body>
   <script type=riot/tag src="hello-world.tag"></script>
-</head>
+</body>
 ```
 <br>Luego agregamos la biblioteca de riot:
 ```html
-<head>
+<body>
   <script type=riot/tag src="hello-world.tag"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
-</head>
+</body>
 ```
 <br>Por último montamos el componente:
 ```html
-<head>
+<body>
   <script type=riot/tag src="hello-world.tag"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
   <script>
      // El saludo por defecto será "hola mundo!"
      riot.mount('hello-world', {name: 'mundo'})
   </script>
-</head>
+</body>
 ```
 <br>El script del componente **hello-world** (en el archivo .tag) también se puede escribir así:
 
