@@ -30,6 +30,9 @@ Los componentes **pueden incluír** tres secciones:
 
   <script>
     this.name = opts.name
+    this.on('mount', function() {
+      setTimeout(function() { console.log("Riot is funny!"); }, 1000)
+    })
   </script>
 </hello-world>
 ```
@@ -37,7 +40,7 @@ Los componentes **pueden incluír** tres secciones:
 ```opts``` es un objeto que guarda todos los atributos definidos en la etiqueta
 de html. En el script de arriba ```opts.name``` contiene el valor del ```name```
 proveniente del archivo HTML. Ese valor es el que será mostrado en el
-encabezado h1. 
+encabezado h1. A continuación se ejecuta una función que espera 1 segundo antes de mostrar en la consola un mensaje. 
 
 ## Archivo HTML
 
