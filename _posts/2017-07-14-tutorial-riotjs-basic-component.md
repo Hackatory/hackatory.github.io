@@ -8,12 +8,14 @@ comments: true
 ---
 
 En este tutorial vamos a crear un componente o etiqueta personalizada
-utilizando [riot.js](http://riotjs.com/){:target="\_blank"} el cuál mostrará un
-mensaje de saludo con un nombre previamente establecido, o con la palabra
-"mundo" sino se suministra ningún nombre.
+utilizando [riot.js](http://riotjs.com/) el cuál mostrará un mensaje de saludo
+con un nombre previamente establecido, o con la palabra "mundo" sino se
+suministra ningún nombre.
 
 ## Componente
+
 Los componentes **pueden incluír** tres secciones:
+
 1. **CSS** (estilos del componente).
 2. **HTML**.
 3. **Javascript** (comportamiento deseado).
@@ -37,27 +39,33 @@ Los componentes **pueden incluír** tres secciones:
 </hello-world>
 ```
 
-```opts``` es un objeto que guarda todos los atributos definidos en la etiqueta
-de html. En el script de arriba ```opts.name``` contiene el valor del ```name```
+`opts` es un objeto que guarda todos los atributos definidos en la etiqueta de
+html. En el script de arriba `opts.name` contiene el valor del `name`
 proveniente del archivo HTML. Ese valor es el que será mostrado en el
-encabezado h1. A continuación se ejecuta una función que espera 1 segundo antes de mostrar en la consola un mensaje. 
+encabezado h1. A continuación se ejecuta una función que espera 1 segundo antes
+de mostrar en la consola un mensaje.
 
 ## Archivo HTML
 
 Al final del **body** en el archivo html cargamos el archivo (.tag) del componente:
+
 ```html
 <body>
   <script type=riot/tag src="hello-world.tag"></script>
 </body>
 ```
-<br>Luego agregamos la biblioteca de riot:
+
+Luego agregamos la biblioteca de riot:
+
 ```html
 <body>
   <script type=riot/tag src="hello-world.tag"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js"></script>
 </body>
 ```
-<br>Por último montamos el componente:
+
+Por último montamos el componente:
+
 ```html
 <body>
   <script type=riot/tag src="hello-world.tag"></script>
@@ -68,13 +76,18 @@ Al final del **body** en el archivo html cargamos el archivo (.tag) del componen
   </script>
 </body>
 ```
-<br>El script del componente **hello-world** (en el archivo .tag) también se puede escribir así:
+
+El script del componente **hello-world** (en el archivo .tag) también se puede escribir así:
 
 ```js
 this.name = opts.name || "mundo"
 ```
-<br>
-Esto hace más fácil montar el componente y siempre tendremos el mensaje por defecto **_"hola mundo!"_**, si en algún momento deseamos cambiar ese mensaje por defecto sólo basta con pasar el argumento **name** al momento de montar el componente (como se ve arriba). De esta manera el componente siempre funcionará, ya sea que se le pasen argumentos o no.
+
+Esto hace más fácil montar el componente y siempre tendremos el mensaje por
+defecto **_"hola mundo!"_**, si en algún momento deseamos cambiar ese mensaje
+por defecto sólo basta con pasar el argumento **name** al momento de montar el
+componente (como se ve arriba). De esta manera el componente siempre
+funcionará, ya sea que se le pasen argumentos o no.
 
 El archivo html terminado debería verse similar al de abajo:
 
@@ -102,7 +115,6 @@ El archivo html terminado debería verse similar al de abajo:
   </script>
 </body>
 </html>
-
 ```
 
 De esta forma, usamos 3 veces la etiqueta. Las dos primeras, se usan definiendo
