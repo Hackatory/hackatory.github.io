@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: hackatory
-email: 'poramo@gmail.com'
+email: 'hackatorysfe@gmail.com'
 phone: '+549 342 5360941'
 description: >
   Hackatory is a space where every one can find some a place to
